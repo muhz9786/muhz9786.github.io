@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://muhz9786.github.io/about/</loc>
+    <lastmod>2019-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/</loc>
+    <lastmod>2019-07-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/tags/bar/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/categories/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/post/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/tags/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/tags/test/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/post/hello-hugo/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhz9786.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
