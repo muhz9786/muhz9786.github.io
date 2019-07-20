@@ -6,17 +6,26 @@
     <description>Recent content in Posts on 慕寒州のBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhz9786.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>手把手教你解除B站区域限制</title>
+      <link>https://muhz9786.github.io/post/bg0003/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhz9786.github.io/post/bg0003/</guid>
+      <description>本文以Chrome浏览器为例，示范如何解除B站区域限制观看番剧。 需要用到的插件与脚本同样支持Firefox浏览器，至于具体细节，因为本人不使</description>
+    </item>
+    
+    <item>
       <title>Test Blog</title>
-      <link>https://muhz9786.github.io/post/hello-hugo/</link>
+      <link>https://muhz9786.github.io/post/bg0000/</link>
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://muhz9786.github.io/post/hello-hugo/</guid>
+      <guid>https://muhz9786.github.io/post/bg0000/</guid>
       <description>主题概况 Balalalalala&amp;hellip; Balalalalala&amp;hellip; 安装指南 aaaaaaa bbbbbbb ccccccc 安装 bold 启用 print(&#39;hello world!&#39;) 更新 Blockquotes are very handy in email to emulate reply text. This line is part of the same quote. 配置指南 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 属性 说明 First ordered list item</description>
     </item>
     

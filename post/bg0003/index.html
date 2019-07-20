@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>about - 慕寒州のBlog</title>
+  <title>手把手教你解除B站区域限制 - 慕寒州のBlog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="(建设中······)">
+  <meta name="description" content="本文以Chrome浏览器为例，示范如何解除B站区域限制观看番剧。 需要用到的插件与脚本同样支持Firefox浏览器，至于具体细节，因为本人不使">
   
-  <meta itemprop="name" content="about - 慕寒州のBlog">
-  <meta itemprop="description" content="(建设中······)">
+  <meta itemprop="name" content="手把手教你解除B站区域限制 - 慕寒州のBlog">
+  <meta itemprop="description" content="本文以Chrome浏览器为例，示范如何解除B站区域限制观看番剧。 需要用到的插件与脚本同样支持Firefox浏览器，至于具体细节，因为本人不使">
   <meta itemprop="image" content="https://muhz9786.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@Cyou_muhz" />
-  <meta name="twitter:title" content="about - 慕寒州のBlog" />
+  <meta name="twitter:title" content="手把手教你解除B站区域限制 - 慕寒州のBlog" />
   
   <meta name="twitter:description" content="Blog of muhz.">
   
@@ -64,33 +64,177 @@
 	<article itemprop="articleBody">
     <header class="article-info clearfix">
   <h1 itemprop="name">
-      <a href="https://muhz9786.github.io/about/" title="about" itemprop="url">about</a>
+      <a href="https://muhz9786.github.io/post/bg0003/" title="手把手教你解除B站区域限制" itemprop="url">手把手教你解除B站区域限制</a>
   </h1>
   <p class="article-author">By
     
-      <a href="https://muhz.github.io" title=""></a>
+      <a href="https://muhz9786.github.io" title="慕寒州">慕寒州</a>
     
   </p>
   <p class="article-time">
-    <time datetime="2019-07-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019年07月08日</time>
+    <time datetime="2019-07-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019年07月20日</time>
   </p>
 </header>
 
 	<div class="article-content">
     
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#step-1-下载tampermonkey插件">Step 1. 下载Tampermonkey插件</a>
+<ul>
+<li><a href="#方法一-需翻墙">方法一（需翻墙）：</a></li>
+<li><a href="#方法二-不需翻墙">方法二（不需翻墙）：</a></li>
+</ul></li>
+<li><a href="#step-2-安装脚本">Step 2. 安装脚本</a></li>
+<li><a href="#测试">测试</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+    
     
 
-<h2 id="建设中">(建设中······)</h2>
+<p>本文以Chrome浏览器为例，示范如何解除B站区域限制观看番剧。</p>
+
+<p>需要用到的插件与脚本同样支持Firefox浏览器，至于具体细节，因为本人不使用Firefox所以就不写了，请参考其他文章。</p>
+
+<hr />
+
+<h2 id="前言">前言</h2>
+
+<p>今天去补了青酱，又甜又沙雕又劝学，吹爆！突然意识到现在的审核真的是把很多优秀的作品拒之墙外。庆幸的是B站以区域限制播放的方式拿到了版权，让我们在dalao们的帮助下有机会通过较为简单的魔法观看这些佳作（心怀感激，ありがとう！）。</p>
+
+<p>如果你还没掌握这个魔法，对着“仅限XX地区”哭泣的话，这篇文章将会帮助到你 <del>（没有比我更充满爱心的骑士了）</del>。如果学会了，请多多支持优秀作品，礼貌观赏番剧哦。</p>
+
+<p>那么正文开始。<br />
+ <del>「さあ、ShowTimeだ」</del></p>
+
+<hr />
+
+<h2 id="step-1-下载tampermonkey插件">Step 1. 下载Tampermonkey插件</h2>
+
+<blockquote>
+<p>Tampermonkey（油猴），一个脚本管理器插件，用来自动运行并管理需要用到的网页脚本。</p>
+</blockquote>
+
+<h3 id="方法一-需翻墙">方法一（需翻墙）：</h3>
+
+<p><strong><em>（简单方便，推荐）</em></strong></p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a></li>
+</ul>
+
+<p>点击链接进入如下安装界面，点击“添加至Chrome”，等待提示完成即可。</p>
+
+<p><img src="../images/0003_1.png" alt="" /></p>
+
+<h3 id="方法二-不需翻墙">方法二（不需翻墙）：</h3>
+
+<p><strong><em>（麻烦，不推荐）</em></strong></p>
+
+<blockquote>
+<p>因为Chrome商店需要翻墙才能访问，如果不能翻墙那就只能通过本地离线包安装。但是据了解在较新的版本中Chrome需要在<strong>开发者模式</strong>下才能实现本地插件安装，这除了安装麻烦之外还可能带来许多<strong>使用体验上的问题</strong>，因此推荐大家尽量翻墙在线下载。</p>
+</blockquote>
+
+<p>这里我提取了自己在Chrome商店下载的最新版本插件供大家使用。</p>
+
+<ul>
+<li><a href="https://pan.baidu.com/s/1PdZzYoE25PsZb4IB-EUQOA">百度网盘链接</a>
+提取密码：io7m</li>
+</ul>
+
+<blockquote>
+<p>提取时间：2019.7.20<br />
+插件版本：4.8.41</p>
+</blockquote>
+
+<p>下载完成后得到<code>.crx</code>后缀文件。</p>
+
+<ul>
+<li>先尝试将文件拖入扩展程序界面(可在浏览器地址栏输入<code>chrome://extensions/</code>进入)。若提示安装失败，说明浏览器版本较高，需通过开发者模式安装。若安装成功则插件安装部分完成。</li>
+</ul>
+
+<p>开发者模式安装：</p>
+
+<ol>
+<li><p>将文件拓展名从<code>.crx</code>改为<code>.rar</code>，并解压文件，得到插件文件夹。将文件夹放置在任意固定路径下。</p></li>
+
+<li><p>在扩展程序界面（<code>chrome://extensions/</code>）开启开发者模式，然后点击“加载已解压的扩展程序”，选择刚才的插件文件夹，即可完成安装。</p></li>
+</ol>
+
+<p><img src="../images/0003_5.png" alt="" /></p>
+
+<p><em>通过开发者模式安装完成后，依然需要开启开发者模式正常运行插件</em></p>
+
+<hr />
+
+<h2 id="step-2-安装脚本">Step 2. 安装脚本</h2>
+
+<blockquote>
+<p>将实现功能需要用到的网页脚本安装到Tampermonkey。</p>
+</blockquote>
+
+<ul>
+<li><a href="https://greasyfork.org/zh-CN/scripts/25718-%E8%A7%A3%E9%99%A4b%E7%AB%99%E5%8C%BA%E5%9F%9F%E9%99%90%E5%88%B6">解除B站区域限制</a></li>
+</ul>
+
+<p>进入链接网页,点击“安装此脚本”，然后在跳出的安装页面点击“安装”。</p>
+
+<p><img src="../images/0003_2.png" alt="" /></p>
+
+<p><img src="../images/0003_3.png" alt="" /></p>
+
+<p><strong><em>——至此，恭喜你已“偷渡”成功了！</em></strong></p>
+
+<hr />
+
+<h2 id="测试">测试</h2>
+
+<p>正巧B站通知我这季我在追的新番更新了，测试一下。</p>
+
+<p><img src="../images/0003_4.png" alt="" /></p>
+
+<p>成了！</p>
+
+<hr />
+
+<p><strong>祝你 追番/补番 愉快，干杯</strong>🍻</p>
 
     
 	</div>
   <footer class="article-footer clearfix">
   
 
+<div class="article-tags">
+  <span></span>
+  
+  <a href="https://muhz9786.github.io/tags/bilibili">Bilibili</a>
+  
+  <a href="https://muhz9786.github.io/tags/chrome">Chrome</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="https://muhz9786.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB">经验分享</a>
+  
+</div>
+
 
 
   <div class="article-share" id="share">
-    <div data-url="https://muhz9786.github.io/about/" data-title="about" data-tsina="0" class="share clearfix">
+    <div data-url="https://muhz9786.github.io/post/bg0003/" data-title="手把手教你解除B站区域限制" data-tsina="0" class="share clearfix">
     </div>
   </div>
 </footer>
@@ -112,8 +256,8 @@
 
 
 var disqus_config = function () {
-this.page.url = "https://muhz9786.github.io/about/";
-this.page.identifier = "https://muhz9786.github.io/about/";
+this.page.url = "https://muhz9786.github.io/post/bg0003/";
+this.page.identifier = "https://muhz9786.github.io/post/bg0003/";
 };
 (function() { 
 var d = document, s = d.createElement('script');
@@ -309,6 +453,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -336,6 +512,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://muhz9786.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://muhz9786.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 

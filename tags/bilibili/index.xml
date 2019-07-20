@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bilibili on 慕寒州のBlog</title>
+    <link>https://muhz9786.github.io/tags/bilibili/</link>
+    <description>Recent content in Bilibili on 慕寒州のBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 20 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://muhz9786.github.io/tags/bilibili/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>手把手教你解除B站区域限制</title>
+      <link>https://muhz9786.github.io/post/bg0003/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhz9786.github.io/post/bg0003/</guid>
+      <description>本文以Chrome浏览器为例，示范如何解除B站区域限制观看番剧。 需要用到的插件与脚本同样支持Firefox浏览器，至于具体细节，因为本人不使</description>
+    </item>
+    
+  </channel>
+</rss>
